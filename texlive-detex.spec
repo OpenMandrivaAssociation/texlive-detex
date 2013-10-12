@@ -1,4 +1,4 @@
-# revision 26689
+# revision 29764
 # category TLCore
 # catalog-ctan /support/detex
 # catalog-date 2012-05-07 22:13:48 +0200
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-detex
 Version:	20120507
-Release:	1
+Release:	2
 Summary:	Strip TeX from a source file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/detex
@@ -28,7 +28,7 @@ in the text. In this case, it also recognizes the \include and
 #-----------------------------------------------------------------------
 %files
 %doc %{_mandir}/man1/detex.1*
-%doc %{_texmfdir}/doc/man/man1/detex.man1.pdf
+%doc %{_texmfdistdir}/doc/man/man1/detex.man1.pdf
 
 #-----------------------------------------------------------------------
 %prep
@@ -38,24 +38,6 @@ in the text. In this case, it also recognizes the \include and
 
 %install
 mkdir -p %{buildroot}%{_datadir}
-cp -fpar texmf %{buildroot}%{_datadir}
+cp -fpar texmf-dist %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
-mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120507-1
-+ Revision: 812217
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20091109-2
-+ Revision: 750887
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20091109-1
-+ Revision: 718217
-- texlive-detex
-- texlive-detex
-- texlive-detex
-- texlive-detex
-
+mv %{buildroot}%{_texmfdistdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
