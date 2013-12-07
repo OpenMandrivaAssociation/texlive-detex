@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-detex
 Version:	20120507
-Release:	5
+Release:	6
 Summary:	Strip TeX from a source file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/detex
