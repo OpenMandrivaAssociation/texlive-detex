@@ -1,4 +1,4 @@
-# revision 29764
+# revision 33736
 # category TLCore
 # catalog-ctan /support/detex
 # catalog-date 2012-05-07 22:13:48 +0200
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-detex
 Version:	20120507
-Release:	7
+Release:	8
 Summary:	Strip TeX from a source file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/detex
