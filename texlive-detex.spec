@@ -1,6 +1,6 @@
 Name:		texlive-detex
-Version:	62387
-Release:	2
+Version:	66186
+Release:	1
 Summary:	Strip TeX from a source file
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/detex
