@@ -1,5 +1,5 @@
 Name:		texlive-detex
-Version:	66186
+Version:	70015
 Release:	1
 Summary:	Strip TeX from a source file
 Group:		Publishing
