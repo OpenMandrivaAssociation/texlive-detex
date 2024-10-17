@@ -3,7 +3,7 @@ Version:	70015
 Release:	1
 Summary:	Strip TeX from a source file
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/detex
+URL:		https://www.ctan.org/tex-archive/support/detex
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/detex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/detex.doc.r%{version}.tar.xz
